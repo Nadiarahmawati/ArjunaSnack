@@ -16,6 +16,13 @@ body {
     height: 15vw;
     object-fit: cover;
 }
+@media (min width: 992px) {
+  .card-img-top{
+  width: 100%;
+  height: 50vw;
+  object-fit: cover;
+  }
+}
 
 .alamat {
   width: 300px;
